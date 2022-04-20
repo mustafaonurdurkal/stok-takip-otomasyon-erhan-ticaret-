@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">YılmazAmbalaj</string>
+    <string name="m_teriler">Müşteriler</string>
+    <string name="sat_lar">Satışlar</string>
+    <string name="alacaklar">Müşteri Ödemeleri</string>
+    <string name="toptanc_lar">Toptancılar</string>
+    <string name="sat_n_al_mlar">Satın Alımlar</string>
+    <string name="bor_lar">Toptancıya Ödenenler</string>
+    <string name="r_nler">Ürünler</string>
+
+    <string name="notlar">Notlar</string>
+    <string name="yedekle">Yedekle</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="cik">Çık</string>
+    <string name="search">Search</string>
+    <string name="title_activity_customer_specs">customerSpecs</string>
+    <string name="tab_text_1">Müşteri Bilgileri</string>
+    <string name="tab_text_2">Satışlar</string>
+    <string name="tab_text_3">Hesap Özeti</string>
+    <string name="tab_text_4">Toptancı Bilgileri</string>
+    <string name="tab_text_5">Satın Alımlar</string>
+    <string name="tab_text_6">Hesap Özeti</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tabbar">tabbarActivity</string>
+    <string name="title_activity_customer_tab">CustomerTabActivity</string>
+    <string name="title_activity_customer_show">CustomerShowActivity</string>
+    <string name="title_activity_wholesaler_show">WholesalerShowActivity</string>
+
+</resources>

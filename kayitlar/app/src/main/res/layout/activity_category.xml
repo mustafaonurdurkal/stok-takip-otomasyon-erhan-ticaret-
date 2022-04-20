@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Product.CategoryActivity">
+
+
+    <ImageButton
+        android:id="@+id/imageButtonAccept"
+        android:layout_width="195dp"
+        android:layout_height="166dp"
+        android:background="@android:color/holo_green_light"
+        android:src="@drawable/button_thick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAdd"
+        android:layout_width="195dp"
+        android:layout_height="166dp"
+        android:background="@android:color/holo_green_light"
+        android:src="@drawable/button_addicon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonAccept" />
+
+    <ImageButton
+        android:id="@+id/imageButtonEdit"
+        android:layout_width="195dp"
+        android:layout_height="166dp"
+        android:background="@android:color/holo_green_light"
+        android:src="@drawable/button_edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonAdd" />
+
+    <ImageButton
+        android:id="@+id/imageButtonBack"
+        android:layout_width="195dp"
+        android:layout_height="166dp"
+        android:background="@android:color/holo_green_light"
+        android:src="@drawable/button_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonDelete" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDelete"
+        android:layout_width="195dp"
+        android:layout_height="166dp"
+        android:background="@android:color/holo_green_light"
+        android:src="@drawable/button_trash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonEdit" />
+
+    <ListView
+        android:id="@+id/categoriList"
+        android:layout_width="404dp"
+        android:layout_height="705dp"
+        android:listSelector="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonAdd"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="397dp"
+        android:layout_height="99dp"
+        android:gravity="center"
+        android:text="Kategoriler"
+        android:textColor="#140505"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/categoriList"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonAccept"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

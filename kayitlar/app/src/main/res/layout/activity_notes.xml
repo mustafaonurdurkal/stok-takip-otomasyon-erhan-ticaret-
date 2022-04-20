@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Notes.NotesActivity">
+
+
+    <ImageButton
+        android:id="@+id/imageButtonDelete"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_green_light"
+        android:src="@drawable/button_trash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonBack"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonEdit"
+        app:layout_constraintTop_toBottomOf="@+id/noteView" />
+
+    <ImageButton
+        android:id="@+id/imageButtonEdit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_green_light"
+        android:src="@drawable/button_edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonDelete"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonAdd"
+        app:layout_constraintTop_toBottomOf="@+id/noteView" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAdd"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_green_light"
+        android:src="@drawable/button_addicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonEdit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noteView" />
+
+    <ImageButton
+        android:id="@+id/imageButtonBack"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_green_light"
+        android:src="@drawable/button_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonDelete"
+        app:layout_constraintTop_toBottomOf="@+id/noteView" />
+
+    <ListView
+        android:id="@+id/noteView"
+        android:layout_width="523dp"
+        android:layout_height="759dp"
+        android:listSelector="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/imageButtonDelete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
